@@ -19,8 +19,8 @@ var CheckboxGroup = module.exports = React.createClass({
   },
 
   render: function() {
-    return this.transferPropsTo(
-      <div onChange={this.props.onChange}>
+    return (
+      <div {...this.props} onChange={this.props.onChange}>
         {this.props.children}
       </div>
     );
