@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/ziad-saab/react-checkbox-group",
   "dependencies": {
-    "react": "~0.11.1"
+    "react": "*"
   }
 }
